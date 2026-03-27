@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Tech Tree Progression</name>
+	<author>Cruesoe</author>
+	<packageId>cruesoe.techtreeprogression</packageId>
+	<description>This mod sorts research into their appropriate tech level tabs.</description>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>GonDragon.TTPF</packageId>
+			<displayName>Tech Tree Patch Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3328259637</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<incompatibleWith>
+		<li>GonDragon.TechTree</li>
+	</incompatibleWith>
+	<loadAfter>
+		<li>GonDragon.TTPF</li>
+		<li>ferny.progressioncore</li>
+		<li>ferny.progressionstorage</li>
+		<li>ferny.progressionproduction</li>
+		<li>ferny.ProgressionGravship</li>
+	</loadAfter>		
+</ModMetaData>

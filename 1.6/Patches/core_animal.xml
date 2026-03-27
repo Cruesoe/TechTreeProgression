@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!-- Rename Vanilla Factions Expanded - Tribals reseach tab -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchTabDef[defName="VFET_Basics"]/label</xpath>
+    <value>
+      <label>Animal</label>
+    </value>
+  </Operation>
+
+</Patch>

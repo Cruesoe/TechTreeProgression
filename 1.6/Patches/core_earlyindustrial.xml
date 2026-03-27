@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="DrugProduction"]</xpath>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>3.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="PsychiteRefining"]</xpath>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="WakeUpProduction"]</xpath>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>3.60</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="GoJuiceProduction"]</xpath>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="PenoxycylineProduction"]</xpath>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.90</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Electricity"]</xpath>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Batteries"]</xpath>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="BiofuelRefining"]</xpath>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>3.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="WatermillGenerator"]</xpath>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="NutrientPaste"]</xpath>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="SolarPanels"]</xpath>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="AirConditioning"]</xpath>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>3.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Autodoors"]</xpath>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>3.60</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Hydroponics"]</xpath>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="TubeTelevision"]</xpath>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>1.20</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="PackagedSurvivalMeal"]</xpath>
+    <researchViewX>14.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Firefoam"]</xpath>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="IEDs"]</xpath>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="GeothermalPower"]</xpath>
+    <researchViewX>22.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="SterileMaterials"]</xpath>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="ColoredLights"]</xpath>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>3.60</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Machining"]</xpath>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="SmokepopBelt"]</xpath>
+    <researchViewX>18.00</researchViewX>
+    <researchViewY>6.60</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Prosthetics"]</xpath>
+    <researchViewX>18.00</researchViewX>
+    <researchViewY>3.60</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
+    <researchViewX>18.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="FlakArmor"]</xpath>
+    <researchViewX>20.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="Mortars"]</xpath>
+    <researchViewX>21.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+    <researchViewX>19.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="GasOperation"]</xpath>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="GunTurrets"]</xpath>
+    <researchViewX>20.00</researchViewX>
+    <researchViewY>6.60</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="FoamTurret"]</xpath>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="MicroelectronicsBasics"]</xpath>
+    <researchViewX>22.00</researchViewX>
+    <researchViewY>3.60</researchViewY>
+    <tab>TAB_Early_Industrial</tab>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Piano"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="ToxifierGenerator"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Deathrest"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>4.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="FertilityProcedures"]</xpath>
+          <researchViewX>15.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="ToxGas"]</xpath>
+          <researchViewX>18.00</researchViewX>
+          <researchViewY>4.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="SecurityDoor"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>4.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Crafts</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_ArtisanDairyProcessing"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>0.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_VinegarBrewing"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>0.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_ArtisanalFermentation"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>0.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_ArtisanalGrinding"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>0.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_OilExtraction"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>3.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_BottlingTechniques"]</xpath>
+          <researchViewX>15.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_Infusing"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="CentralHeating"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="GeothermalHeating"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="ModernFixtures"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="ElectricPumps"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AdvancedShowers"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AdvancedToilets"]</xpath>
+          <researchViewX>16.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="HotTubs"]</xpath>
+          <researchViewX>18.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="LargeWaterPumps"]</xpath>
+          <researchViewX>19.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DeepWells"]</xpath>
+          <researchViewX>20.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="WashingMachines"]</xpath>
+          <researchViewX>15.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="WaterFiltration"]</xpath>
+          <researchViewX>17.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="SewageTreatment"]</xpath>
+          <researchViewX>19.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Irrigation"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="FireSuppression"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Reel's Expanded Storage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="ReelIndustrialStorage"]</xpath>
+          <researchViewX>15.00</researchViewX>
+          <researchViewY>4.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VAE_CasualWear"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>4.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VAE_WorkAttire"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>4.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>4.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VAE_MilitaryClothing"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>4.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Armour Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VAE_HazardProtection"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>4.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VAE_MlitaryCamouflage"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>4.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VBE_MixologyResearch"]</xpath>
+          <researchViewX>17.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_SoupCooking"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_DeepFrying"]</xpath>
+          <researchViewX>16.00</researchViewX>
+          <researchViewY>0.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_Canning"]</xpath>
+          <researchViewX>16.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFEE_PipeOrgans"]</xpath>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFEE_StellicThrone"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>3.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Insectoids 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]</xpath>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>6.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Farming</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Sprinkler"]</xpath>
+          <researchViewX>18.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Power</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_IndustrialGenerators"]</xpath>
+          <researchViewX>17.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_TidalPower"]</xpath>
+          <researchViewX>22.00</researchViewX>
+          <researchViewY>3.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Helixien Gas Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VHGE_GasExtraction"]</xpath>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>4.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Recycling Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VRecyclingE_BasicRecycling"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VWE_TrenchWarfare"]</xpath>
+          <researchViewX>22.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VWE_HeavyWeapons"]</xpath>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Makeshift</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[FM] DBH Addon: Expanded Pack</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="RoyalFixtures"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded - Coffees and Teas</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VBE_EspressoMachine"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded - Haute</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_HauteCuisine"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Quickdraw</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VWE_Quickdraw"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Frontier</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VWEFT_FrontierWeapons"]</xpath>
+          <researchViewX>19.00</researchViewX>
+          <researchViewY>6.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MF_ModernFurniture"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MF_WasteDisposal"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Generally More Research</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_ArcadeMachine"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_RouletteTable"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_IndustrialRadio"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_LongwaveRadio"]</xpath>
+          <researchViewX>16.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_PersonalComputer"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_ModernComputer"]</xpath>
+          <researchViewX>15.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_ChemfuelLogistics"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_Deepchem"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_BlueGelBattery"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_HexagelBattery"]</xpath>
+          <researchViewX>15.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_HexagelCore"]</xpath>
+          <researchViewX>16.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_Thermometers"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_CommsConsole"]</xpath>
+          <researchViewX>20.00</researchViewX>
+          <researchViewY>0.90</researchViewY>
+          <tab>TAB_High_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_BilliardsTable"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Hospitality</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_SlotMachines"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Production</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_IndustrialSmithing"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>3.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Education</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_IndustrialEducation"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>4.20</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Non-Lethal</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VWE_NonLethal"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Art</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Wallpapers"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Deserters</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFED_RemoteDemolition"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Mechs</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_StandardMechtech"]</xpath>
+          <researchViewX>15.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]</xpath>
+          <researchViewX>16.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Pirates</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFEP_Warcaskets"]</xpath>
+          <researchViewX>22.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFEP_SweatFermentation"]</xpath>
+          <researchViewX>14.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
+          <tab>TAB_Early_Industrial</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

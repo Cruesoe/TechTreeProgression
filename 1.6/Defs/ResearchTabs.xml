@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchTabDef>
+		<defName>TAB_Animal</defName>
+		<label>Animal</label>
+		<generalTitle>Neolithic age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Neolithic Age.</generalDescription>
+	</ResearchTabDef>
+	
+	<ResearchTabDef>
+		<defName>TAB_Neolithic</defName>
+		<label>Neolithic</label>
+		<generalTitle>Neolithic age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Neolithic Age.</generalDescription>
+	</ResearchTabDef>
+	
+	<ResearchTabDef>
+		<defName>TAB_Medieval</defName>
+		<label>Medieval</label>
+		<generalTitle>Medieval age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Medieval Age.</generalDescription>
+	</ResearchTabDef>
+	
+  	<ResearchTabDef>
+		<defName>TAB_Early_Industrial</defName>
+		<label>Early Industrial</label>
+		<generalTitle>Industrial age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Industrial Age.</generalDescription>
+	</ResearchTabDef>
+	
+	<ResearchTabDef>
+		<defName>TAB_High_Industrial</defName>
+		<label>High Industrial</label>
+		<generalTitle>High Industrial age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Industrial Age, that require HiTech Research bench.</generalDescription>
+	</ResearchTabDef>
+	
+	<ResearchTabDef>
+		<defName>TAB_Late_Industrial</defName>
+		<label>Late Industrial</label>
+		<generalTitle>Late Industrial age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Late Industrial Age, that require a Multi-analyzer</generalDescription>
+	</ResearchTabDef>
+  
+  	<ResearchTabDef>
+		<defName>TAB_Spacer</defName>
+		<label>Spacer</label>
+		<generalTitle>Spacer age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Spacer Age.</generalDescription>
+	</ResearchTabDef>
+	
+  	<ResearchTabDef>
+		<defName>TAB_Ultra</defName>
+		<label>Ultra</label>
+		<generalTitle>Ultra age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Ultra Age.</generalDescription>
+	</ResearchTabDef>
+	
+	<ResearchTabDef>
+		<defName>TAB_Archotech</defName>
+		<label>Archotech</label>
+		<generalTitle>Archotech age research projects</generalTitle>
+		<generalDescription>Unlock technologies related to the Archotech Age.</generalDescription>
+	</ResearchTabDef>
+	
+</Defs>
