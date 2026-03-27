@@ -4,3 +4,5 @@ If you are not using the full pack I am currently unable to offer support.
 
 This is not compatible with GonDragon's Tech Tree https://steamcommunity.com/sharedfiles/filedetails/?id=3328259983 that is in the pack,
 you must remove that before using my mod.
+
+For a little more flair I suggest you use Research Tab Colors https://steamcommunity.com/sharedfiles/filedetails/?id=3108740804
