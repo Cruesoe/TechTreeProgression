@@ -714,6 +714,7 @@
       </operations>
     </match>
   </Operation>
+  <!-- Generally More Research -->
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Generally More Research</li>
@@ -763,6 +764,15 @@
           <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedGeothermalGenerator"]</xpath>
           <researchViewX>3.00</researchViewX>
           <researchViewY>3.80</researchViewY>
+          <tab>TAB_Spacer</tab>
+        </li>
+		
+		<li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_CryogenicTanks"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
           <tab>TAB_Spacer</tab>
         </li>
 
@@ -857,4 +867,5 @@
       </operations>
     </match>
   </Operation>
+
 </Patch>
