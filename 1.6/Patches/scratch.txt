@@ -2,7 +2,7 @@
 <Patch>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Royalty</li>
+      <li>Reel's Expanded Storage</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -10,67 +10,23 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="HealingFactors"]</xpath>
-
-          <tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="ReelNeolithicStorage"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>4.10</researchViewY>
+          <tab>TAB_Neolithic</tab>
         </li>
 
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Biotech</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]</xpath>
-
-          <tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="ReelMedievalStorage"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>4.20</researchViewY>
+          <tab>TAB_Medieval</tab>
         </li>
 
       </operations>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Furniture Expanded - Security</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFES_RepulsorTechnology"]</xpath>
-
-          <tab>TAB_Ultra</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Alpha Mechs</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]</xpath>
-
-          <tab>TAB_Ultra</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
- 
 </Patch>

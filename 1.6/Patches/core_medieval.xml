@@ -970,4 +970,45 @@
     <tab>TAB_Medieval</tab>
   </Operation>
 
+  <!-- Reel's Expanded Storage-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Reel's Expanded Storage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="ReelMedievalStorage"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>4.20</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <!-- Therapy -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Therapy (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Therapy"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
 </Patch>
