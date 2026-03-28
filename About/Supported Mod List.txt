@@ -1,0 +1,65 @@
+Supported Mods:
+
+* [FM] DBH Addon: Expanded Pack
+* Alpha Crafts
+* Alpha Implants
+* Alpha Mechs
+* Altered Carbon 2: ReSleeved
+* Anomaly
+* Biotech
+* Dubs Bad Hygiene
+* Generally More Research
+* Ideology
+* Medieval Overhaul
+* Odyssey
+* Outfit Stands Plus
+* Progression: Agriculture
+* Progression: Attire
+* Progression: Education
+* Progression: Factories
+* Progression: Genetics
+* Progression: Hospitality
+* Progression: Kitchen
+* Progression: Production
+* Progression: Warrants
+* Reel's Expanded Storage
+* Research Papers
+* Royalty
+* Simple Immersion - VBE Coffees and Teas
+* Therapy (Continued)
+* Vanilla Apparel Expanded
+* Vanilla Armour Expanded
+* Vanilla Brewing Expanded
+* Vanilla Brewing Expanded - Coffees and Teas
+* Vanilla Cooking Expanded
+* Vanilla Cooking Expanded - Bakery
+* Vanilla Cooking Expanded - Haute
+* Vanilla Cooking Expanded - Stews
+* Vanilla Cooking Expanded - Sushi
+* Vanilla Factions Expanded - Classical
+* Vanilla Factions Expanded - Deserters
+* Vanilla Factions Expanded - Empire
+* Vanilla Factions Expanded - Insectoids 2
+* Vanilla Factions Expanded - Medieval 2
+* Vanilla Factions Expanded - Pirates
+* Vanilla Factions Expanded - Tribals
+* Vanilla Furniture Expanded
+* Vanilla Furniture Expanded - Art
+* Vanilla Furniture Expanded - Factory
+* Vanilla Furniture Expanded - Farming
+* Vanilla Furniture Expanded - Power
+* Vanilla Furniture Expanded - Production
+* Vanilla Furniture Expanded - Security
+* Vanilla Furniture Expanded - Spacer Module
+* Vanilla Genetics Expanded
+* Vanilla Genetics Expanded - More Lab Stuff
+* Vanilla Helixien Gas Expanded
+* Vanilla Recycling Expanded
+* Vanilla Temperature Expanded
+* Vanilla Weapons Expanded
+* Vanilla Weapons Expanded - Coilguns
+* Vanilla Weapons Expanded - Frontier
+* Vanilla Weapons Expanded - Laser
+* Vanilla Weapons Expanded - Makeshift
+* Vanilla Weapons Expanded - Non-Lethal
+* Vanilla Weapons Expanded - Quickdraw
