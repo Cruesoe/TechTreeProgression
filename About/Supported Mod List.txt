@@ -10,6 +10,7 @@ Supported Mods:
 * Dubs Bad Hygiene
 * Generally More Research
 * Ideology
+* Laser Weapons: Re-Examined
 * Medieval Overhaul
 * Odyssey
 * Outfit Stands Plus
