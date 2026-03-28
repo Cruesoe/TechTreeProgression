@@ -589,6 +589,7 @@
       </operations>
     </match>
   </Operation>
+  
   <!-- Generally More Research -->
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -610,7 +611,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="Ferny_TransportDock"]</xpath>
-          <researchViewX>12.00</researchViewX>
+          <researchViewX>13.00</researchViewX>
           <researchViewY>4.40</researchViewY>
           <tab>TAB_Late_Industrial</tab>
         </li>
@@ -618,6 +619,7 @@
       </operations>
     </match>
   </Operation>
+  
   <Operation Class="TTPF.PatchOperationEditResearch">
     <success>Always</success>
 
@@ -654,25 +656,81 @@
       </operations>
     </match>
   </Operation>
+  
   <!-- Vanilla Vehicles Expanded -->
-    <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Vehicles Expanded</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Vanilla Vehicles Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>4.40</researchViewY>
-          <tab>TAB_Late_Industrial</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]</xpath>
+			<researchViewX>15.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Early_Industrial</tab>
         </li>
 
-      </operations>
-    </match>
-  </Operation>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>4.80</researchViewY>
+			<tab>TAB_Late_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]</xpath>
+			<researchViewX>12.00</researchViewX>
+			<researchViewY>4.40</researchViewY>
+			<tab>TAB_Late_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>4.30</researchViewY>
+			<tab>TAB_Late_Industrial</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+ 
+	<!-- Expanded Prosthetics and Organ Engineering - Forked -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Expanded Prosthetics and Organ Engineering - Forked</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="SurrogateOrgans"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>2.80</researchViewY>
+			<tab>TAB_Late_Industrial</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="BrainSurgery"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>3.60</researchViewY>
+			<tab>TAB_Late_Industrial</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
 
 </Patch>

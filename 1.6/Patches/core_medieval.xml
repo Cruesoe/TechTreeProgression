@@ -328,6 +328,7 @@
       </operations>
     </match>
   </Operation>
+  
   <!-- Vanilla Furniture Expanded - Art -->
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -366,6 +367,7 @@
       </operations>
     </match>
   </Operation>
+  
   <!-- Vanilla Furniture Expanded - Farming -->
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -386,6 +388,7 @@
       </operations>
     </match>
   </Operation>
+  
   <!-- Vanilla Cooking Expanded - Bakery -->
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -406,6 +409,7 @@
       </operations>
     </match>
   </Operation>
+  
   <!-- Vanilla Cooking Expanded - Stews -->
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -426,6 +430,7 @@
       </operations>
     </match>
   </Operation>
+  
   <!-- Vanilla Cooking Expanded - Sushi -->
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -446,6 +451,27 @@
       </operations>
     </match>
   </Operation>
+  
+	<!-- Vanilla Furniture Expanded - Security -->
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Vanilla Furniture Expanded - Security</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VFES_SiegeEquipment"]</xpath>
+			<researchViewX>6.00</researchViewX>
+			<researchViewY>6.00</researchViewY>
+			<tab>TAB_Medieval</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+  
   <!-- Medieval Overhaul -->
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -1020,4 +1046,25 @@
       </operations>
     </match>
   </Operation>
+  
+	<!-- Vanilla Armour Expanded -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Vanilla Armour Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VAE_LeatherTanning"]</xpath>
+			<researchViewX>4.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Medieval</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+	
 </Patch>

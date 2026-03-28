@@ -603,289 +603,396 @@
       </operations>
     </match>
   </Operation>
+  
+	<!-- -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Vanilla Factions Expanded - Pirates</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VFEP_SpacerWarcaskets"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>4.80</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VFEP_SpacerWarcasketWeaponry"]</xpath>
+			<researchViewX>7.00</researchViewX>
+			<researchViewY>4.80</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+  
+	<!-- -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Vanilla Genetics Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="GR_GeneticAlteration"]</xpath>
+			<researchViewX>1.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="GR_GeneticEngineering"]</xpath>
+			<researchViewX>2.00</researchViewX>
+			<researchViewY>1.80</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="GR_GeneticDuplication"]</xpath>
+			<researchViewX>2.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="GR_HybridImplantology"]</xpath>
+			<researchViewX>3.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="GR_GeneticCompatibility"]</xpath>
+			<researchViewX>4.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="GR_GeneticMechahybridization"]</xpath>
+			<researchViewX>8.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+		</operations>
+		</match>
+	</Operation>
+  
+  <!-- -->
   <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Factions Expanded - Pirates</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+		<mods>
+		<li>Vanilla Genetics Expanded - More Lab Stuff</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEP_SpacerWarcaskets"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="GR_GenetrainerRepurposing"]</xpath>
+			<researchViewX>7.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VFEP_SpacerWarcasketWeaponry"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Genetics Expanded</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="GR_GeneticAlteration"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="GR_GeneticEngineering"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="GR_GeneticDuplication"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="GR_HybridImplantology"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="GR_GeneticCompatibility"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="GR_GeneticMechahybridization"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Genetics Expanded - More Lab Stuff</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="GR_GenetrainerRepurposing"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
+		</operations>
+		</match>
+	</Operation>
+  
   <!-- Generally More Research -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Generally More Research</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Generally More Research</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_AirPurifier"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_AirPurifier"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedWindTurbine"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>3.80</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedWindTurbine"]</xpath>
+			<researchViewX>2.00</researchViewX>
+			<researchViewY>3.80</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedSolarGenerator"]</xpath>
-          <researchViewX>5.00</researchViewX>
-          <researchViewY>3.80</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedSolarGenerator"]</xpath>
+			<researchViewX>5.00</researchViewX>
+			<researchViewY>3.80</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedWatermillGenerator"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>3.80</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedWatermillGenerator"]</xpath>
+			<researchViewX>4.00</researchViewX>
+			<researchViewY>3.80</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedGeothermalGenerator"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>3.80</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedGeothermalGenerator"]</xpath>
+			<researchViewX>3.00</researchViewX>
+			<researchViewY>3.80</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 		
 		<li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_CryogenicTanks"]</xpath>
-          <researchViewX>5.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Spacer</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Progression: Genetics</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_GenepackCentrifuge"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_CryogenicTanks"]</xpath>
+			<researchViewX>5.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_XenogermReplicator"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_HoloDancers"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>3.60</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Progression: Education</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+		</operations>
+		</match>
+	</Operation>
+	
+	<!-- -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Progression: Genetics</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_SpacerEducation"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_GenepackCentrifuge"]</xpath>
+			<researchViewX>3.00</researchViewX>
+			<researchViewY>0.60</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 
-      </operations>
-    </match>
-  </Operation>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_XenogermReplicator"]</xpath>
+			<researchViewX>7.00</researchViewX>
+			<researchViewY>0.60</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+  
+	<!-- -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Progression: Education</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_SpacerEducation"]</xpath>
+			<researchViewX>4.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+  
   <!-- Outfit Stands Plus -->
-    <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Outfit Stands Plus</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Outfit Stands Plus</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="OutfitStandsPlus_MendingOutfitStandsResearch"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="OutfitStandsPlus_MendingOutfitStandsResearch"]</xpath>
+			<researchViewX>1.00</researchViewX>
+			<researchViewY>5.40</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
-
-      </operations>
-    </match>
+		</operations>
+		</match>
   </Operation>
+  
     <!-- Research Papers -->
     <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Research Papers</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+		<mods>
+		<li>Research Papers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+		<li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="ResearchServerProject"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="ResearchServerProject"]</xpath>
+			<researchViewX>2.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
-
-      </operations>
-    </match>
-  </Operation>
+		</operations>
+		</match>
+	</Operation>
+  
 	<!-- Laser Weapons: Re-Examined -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Laser Weapons: Re-Examined</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Laser Weapons: Re-Examined</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="LaserWeaponry"]</xpath>
-          <researchViewX>13.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
-          <tab>TAB_Spacer</tab>
+			<xpath>Defs/ResearchProjectDef[defName="LaserWeaponry"]</xpath>
+			<researchViewX>13.00</researchViewX>
+			<researchViewY>5.40</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+
+	<!-- Expanded Prosthetics and Organ Engineering - Forked -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Expanded Prosthetics and Organ Engineering - Forked</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="AdvancedBionics"]</xpath>
+			<researchViewX>6.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
         </li>
 
-      </operations>
-    </match>
-  </Operation>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="RibReplacements"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>0.00</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="SyntheticOrgans"]</xpath>
+			<researchViewX>9.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="EPOE_SyntheticRepair"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>0.60</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="EPOE_NeurologicalTreatment"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>0.60</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="EPOE_Glitterworld_Implants"]</xpath>
+			<researchViewX>7.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="EPOE_AIPersonaCoreImplant"]</xpath>
+			<researchViewX>8.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="EPOE_OrganicOptimizer"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="EPOE_MAAIChip"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>1.80</researchViewY>
+			<tab>TAB_Spacer</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
 
 </Patch>

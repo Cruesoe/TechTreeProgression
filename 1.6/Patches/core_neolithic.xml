@@ -98,38 +98,56 @@
 	<!-- Vanilla Furniture Expanded -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Furniture Expanded - Art</li>
+		<li>Vanilla Furniture Expanded - Art</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 		<operations>
-			<li Class="TTPF.PatchOperationEditResearch">
+		
+		<li Class="TTPF.PatchOperationEditResearch">
 				<success>Always</success>
 
 			<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]</xpath>
 			<researchViewX>5.00</researchViewX>
 			<researchViewY>1.80</researchViewY>
 			<tab>TAB_Neolithic</tab>
-			</li>
+		</li>
 
-			<li Class="TTPF.PatchOperationEditResearch">
+		<li Class="TTPF.PatchOperationEditResearch">
 				<success>Always</success>
 
 			<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Pottery"]</xpath>
 			<researchViewX>5.00</researchViewX>
 			<researchViewY>1.20</researchViewY>
 			<tab>TAB_Neolithic</tab>
-			</li>
+		</li>
 
-			<li Class="TTPF.PatchOperationEditResearch">
-				<success>Always</success>
+		<li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
 
 			<xpath>Defs/ResearchProjectDef[defName="VFE_Res_WallCarvings"]</xpath>
 			<researchViewX>4.00</researchViewX>
 			<researchViewY>1.20</researchViewY>
 			<tab>TAB_Neolithic</tab>
-			</li>
+		</li>
 
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Neolithic</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Rugs"]</xpath>
+			<researchViewX>7.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Medieval</tab>
+        </li>
 		</operations>
 		</match>
 	</Operation>
@@ -337,335 +355,342 @@
       </operations>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Progression: Agriculture</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+  
+	<!-- Progression: Agriculture -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Progression: Agriculture</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_Millstone"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_Millstone"]</xpath>
+			<researchViewX>3.00</researchViewX>
+			<researchViewY>0.60</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_SeedPackingBench"]</xpath>
-          <researchViewX>6.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_SeedPackingBench"]</xpath>
+			<researchViewX>6.00</researchViewX>
+			<researchViewY>0.60</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Progression: Hospitality</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+		</operations>
+		</match>
+	</Operation>
+  
+	<!-- Progression: Hospitality -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Progression: Hospitality</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_BasicRetail"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_BasicRetail"]</xpath>
+			<researchViewX>4.00</researchViewX>
+			<researchViewY>4.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Progression: Production</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
+		</operations>
+		</match>
+	</Operation>
+  
+	<!-- Progression: Production -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Progression: Production</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
 	    <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_SculptingBench"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_SculptingBench"]</xpath>
+			<researchViewX>3.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_Workbench"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Neolithic</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_Ice"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_Workbench"]</xpath>
+			<researchViewX>2.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_Mending"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_Ice"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>1.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_Writing"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_Mending"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_LootCleaning"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_Writing"]</xpath>
+			<researchViewX>2.00</researchViewX>
+			<researchViewY>3.60</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
-          <researchViewX>6.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Neolithic</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Progression: Education</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_NeolithicEducation"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Neolithic</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Factions Expanded - Classical</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_Togas"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_LootCleaning"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>4.20</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_TemperatureControl"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
+			<researchViewX>6.00</researchViewX>
+			<researchViewY>3.60</researchViewY>
+			<tab>TAB_Neolithic</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+  
+	<!-- Progression: Education -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Progression: Education</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="Ferny_NeolithicEducation"]</xpath>
+			<researchViewX>1.00</researchViewX>
+			<researchViewY>3.60</researchViewY>
+			<tab>TAB_Neolithic</tab>
+        </li>
+		</operations>
+		</match>
+	</Operation>
+
+	<!-- Vanilla Factions Expanded - Classical -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Vanilla Factions Expanded - Classical</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+		<operations>
+		<li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_Togas"]</xpath>
+			<researchViewX>9.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_MeatDrying"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_TemperatureControl"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>1.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_Mosaics"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_MeatDrying"]</xpath>
+			<researchViewX>9.00</researchViewX>
+			<researchViewY>1.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_Thermaebath"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_Mosaics"]</xpath>
+			<researchViewX>9.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_DramaAndComedy"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_Thermaebath"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>1.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_BronzeWorking"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_DramaAndComedy"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_CraftingBench"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_BronzeWorking"]</xpath>
+			<researchViewX>9.00</researchViewX>
+			<researchViewY>5.40</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_CementMaking"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_CraftingBench"]</xpath>
+			<researchViewX>9.00</researchViewX>
+			<researchViewY>3.60</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_WoodfiredCrematorium"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_CementMaking"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>3.60</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_WoodfiredCrematorium"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>2.40</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_RoadBuilding"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_HeavyShieldMaking"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_RoadBuilding"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>4.20</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_LegionaryArmaments"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_HeavyShieldMaking"]</xpath>
+			<researchViewX>9.00</researchViewX>
+			<researchViewY>4.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_LegionnaireArmor"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_LegionaryArmaments"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>5.40</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_CenturionArmor"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_LegionnaireArmor"]</xpath>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>4.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_Scorpion"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_CenturionArmor"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>4.80</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEC_Beacons"]</xpath>
-          <researchViewX>12.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Neolithic</tab>
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_Scorpion"]</xpath>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>3.00</researchViewY>
+			<tab>TAB_Neolithic</tab>
         </li>
 
-      </operations>
-    </match>
-  </Operation>
+        <li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
+
+			<xpath>Defs/ResearchProjectDef[defName="VFEC_Beacons"]</xpath>
+			<researchViewX>12.00</researchViewX>
+			<researchViewY>4.20</researchViewY>
+			<tab>TAB_Neolithic</tab>
+        </li>
+
+		</operations>
+		</match>
+	</Operation>
+  
 	<!-- Reel's Expanded Storage -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Reel's Expanded Storage</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Reel's Expanded Storage</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="TTPF.PatchOperationEditResearch">
+			<success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="ReelNeolithicStorage"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Neolithic</tab>
-        </li>
+			<xpath>Defs/ResearchProjectDef[defName="ReelNeolithicStorage"]</xpath>
+			<researchViewX>0.00</researchViewX>
+			<researchViewY>4.20</researchViewY>
+			<tab>TAB_Neolithic</tab>
+			</li>
 
-      </operations>
-    </match>
-  </Operation>
+		</operations>
+		</match>
+	</Operation>
+	
 </Patch>

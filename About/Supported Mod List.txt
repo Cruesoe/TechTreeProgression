@@ -8,6 +8,7 @@ Supported Mods:
 * Anomaly
 * Biotech
 * Dubs Bad Hygiene
+* Expanded Prosthetics and Organ Engineering - Forked
 * Generally More Research
 * Ideology
 * Laser Weapons: Re-Examined
