@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+    <Operation Class="TTPF.PatchOperationEditResearch">
+    <success>Always</success>
+
+    <xpath>Defs/ResearchProjectDef[defName="LongBlades"]</xpath>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+    <tab>TAB_Medieval</tab>
+  </Operation>
+  
   <Operation Class="TTPF.PatchOperationEditResearch">
     <success>Always</success>
 
     <xpath>Defs/ResearchProjectDef[defName="ComplexFurniture"]</xpath>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>3.00</researchViewY>
+    <researchViewY>2.90</researchViewY>
     <tab>TAB_Medieval</tab>
   </Operation>
 
@@ -14,16 +23,7 @@
 
     <xpath>Defs/ResearchProjectDef[defName="CarpetMaking"]</xpath>
     <researchViewX>5.00</researchViewX>
-    <researchViewY>3.00</researchViewY>
-    <tab>TAB_Medieval</tab>
-  </Operation>
-
-  <Operation Class="TTPF.PatchOperationEditResearch">
-    <success>Always</success>
-
-    <xpath>Defs/ResearchProjectDef[defName="LongBlades"]</xpath>
-    <researchViewX>6.00</researchViewX>
-    <researchViewY>5.40</researchViewY>
+    <researchViewY>2.90</researchViewY>
     <tab>TAB_Medieval</tab>
   </Operation>
 
@@ -31,8 +31,8 @@
     <success>Always</success>
 
     <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]</xpath>
-    <researchViewX>11.00</researchViewX>
-    <researchViewY>3.60</researchViewY>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
     <tab>TAB_Medieval</tab>
   </Operation>
 
@@ -40,8 +40,8 @@
     <success>Always</success>
 
     <xpath>Defs/ResearchProjectDef[defName="Greatbow"]</xpath>
-    <researchViewX>2.00</researchViewX>
-    <researchViewY>5.40</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>6.50</researchViewY>
     <tab>TAB_Medieval</tab>
   </Operation>
 
@@ -57,7 +57,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="NobleApparel"]</xpath>
           <researchViewX>2.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
+          <researchViewY>4.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -66,7 +66,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="RoyalApparel"]</xpath>
           <researchViewX>3.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
+          <researchViewY>4.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -74,7 +74,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="Harp"]</xpath>
-          <researchViewX>3.00</researchViewX>
+          <researchViewX>6.00</researchViewX>
           <researchViewY>1.80</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -83,7 +83,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="Harpsichord"]</xpath>
-          <researchViewX>4.00</researchViewX>
+          <researchViewX>7.00</researchViewX>
           <researchViewY>1.80</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -91,121 +91,6 @@
       </operations>
     </match>
   </Operation>
-  <!-- Dubs Bad Hygiene -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Dubs Bad Hygiene</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="SewageSludgeComposting"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="Plumbing"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="LogBoilers"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="Saunas"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="SepticTanks"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="SwimmingPools"]</xpath>
-          <researchViewX>5.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <!-- Vanilla Brewing Expanded -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Brewing Expanded</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VBE_LiquorBrewing"]</xpath>
-          <researchViewX>6.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <!-- Vanilla Cooking Expanded -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Cooking Expanded</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VCE_Grilling"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-	
-    	<li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VCE_CheeseMaking"]</xpath>
-          <researchViewX>5.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <!-- Vanilla Factions Expanded - Empire -->
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Vanilla Factions Expanded - Empire</li>
@@ -218,17 +103,16 @@
 
           <xpath>Defs/ResearchProjectDef[defName="VFEE_NobleDecorations"]</xpath>
           <researchViewX>3.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
+          <researchViewY>2.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
       </operations>
     </match>
   </Operation>
-  <!-- Vanilla Factions Expanded - Insectoids -->
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Vanilla Factions Expanded - Insectoids 2</li>
+      <li>Dubs Bad Hygiene</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -236,25 +120,60 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>6.60</researchViewY>
+          <xpath>Defs/ResearchProjectDef[defName="SewageSludgeComposting"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>6.60</researchViewY>
+          <xpath>Defs/ResearchProjectDef[defName="Plumbing"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="LogBoilers"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Saunas"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="SepticTanks"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="SwimmingPools"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
       </operations>
     </match>
   </Operation>
-  <!-- Vanilla Factions Expanded - Medieval -->
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Vanilla Factions Expanded - Medieval 2</li>
@@ -266,8 +185,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>1.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -275,7 +194,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="VFEM2_Wine"]</xpath>
-          <researchViewX>4.00</researchViewX>
+          <researchViewX>8.00</researchViewX>
           <researchViewY>0.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -284,7 +203,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]</xpath>
-          <researchViewX>8.00</researchViewX>
+          <researchViewX>11.00</researchViewX>
           <researchViewY>0.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -294,7 +213,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
           <researchViewX>8.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
+          <researchViewY>2.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -302,7 +221,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
-          <researchViewX>10.00</researchViewX>
+          <researchViewX>11.00</researchViewX>
           <researchViewY>1.80</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -311,8 +230,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>6.00</researchViewY>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -320,159 +239,15 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>2.40</researchViewY>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>2.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
       </operations>
     </match>
   </Operation>
-  
-  <!-- Vanilla Furniture Expanded - Art -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Furniture Expanded - Art</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_ArtfulDisplay"]</xpath>
-          <researchViewX>6.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Statues"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  
-  <!-- Vanilla Furniture Expanded - Farming -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Furniture Expanded - Farming</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_FarmingTechniques"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  
-  <!-- Vanilla Cooking Expanded - Bakery -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Cooking Expanded - Bakery</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VCE_DecorativeBaking"]</xpath>
-          <researchViewX>5.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  
-  <!-- Vanilla Cooking Expanded - Stews -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Cooking Expanded - Stews</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VCE_StewCooking"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>0.00</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  
-  <!-- Vanilla Cooking Expanded - Sushi -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Cooking Expanded - Sushi</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="VCE_SoyFermentation"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>0.00</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  
-	<!-- Vanilla Furniture Expanded - Security -->
-    <Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Vanilla Furniture Expanded - Security</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-		<operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
-
-			<xpath>Defs/ResearchProjectDef[defName="VFES_SiegeEquipment"]</xpath>
-			<researchViewX>6.00</researchViewX>
-			<researchViewY>6.00</researchViewY>
-			<tab>TAB_Medieval</tab>
-        </li>
-		</operations>
-		</match>
-	</Operation>
-  
-  <!-- Medieval Overhaul -->
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Medieval Overhaul</li>
@@ -484,8 +259,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_RusticFurniture"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>2.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -493,8 +268,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_RusticStorage"]</xpath>
-          <researchViewX>2.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>2.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -502,8 +277,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Presser"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>0.50</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -511,8 +286,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_CarrierBirds"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -520,8 +295,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Exploration"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -530,7 +305,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Silk"]</xpath>
           <researchViewX>4.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
+          <researchViewY>2.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -538,17 +313,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Engineering"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Mining"]</xpath>
-          <researchViewX>10.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>3.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -556,8 +322,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Windmill"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
+          <researchViewX>11.50</researchViewX>
+          <researchViewY>4.10</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -565,8 +331,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Watermill"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>4.80</researchViewY>
+          <researchViewX>10.50</researchViewX>
+          <researchViewY>4.10</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -574,7 +340,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Crossbow"]</xpath>
-          <researchViewX>1.00</researchViewX>
+          <researchViewX>2.00</researchViewX>
           <researchViewY>5.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -583,124 +349,25 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_HeavyCrossbow"]</xpath>
-          <researchViewX>5.00</researchViewX>
+          <researchViewX>6.00</researchViewX>
           <researchViewY>5.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
-
+		
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Ballista"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>6.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Trebuchet"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
+		
+		        <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_RepeaterBallista"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Alchemy"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Steel"]</xpath>
-          <researchViewX>11.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Plasteel"]</xpath>
           <researchViewX>12.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Tar"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Gunpowder"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>6.00</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_ProtectiveClothing"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_ChainArmor"]</xpath>
-          <researchViewX>9.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_WarBow"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>5.40</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_BasicPolearms"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>6.00</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_MilitaryPolearms"]</xpath>
-          <researchViewX>5.00</researchViewX>
           <researchViewY>6.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -709,8 +376,116 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_NoblePolearms"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_NobleMaces"]</xpath>
           <researchViewX>6.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_MilitaryBlades"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+		
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Alchemy"]</xpath>
+          <researchViewX>10.00</researchViewX>
+          <researchViewY>2.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Steel"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>2.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Plasteel"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>2.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Tar"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_Gunpowder"]</xpath>
+          <researchViewX>10.00</researchViewX>
           <researchViewY>6.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_ProtectiveClothing"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>4.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_ChainArmor"]</xpath>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>4.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_WarBow"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_BasicPolearms"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_MilitaryPolearms"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -719,7 +494,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_BasicMaces"]</xpath>
           <researchViewX>0.00</researchViewX>
-          <researchViewY>6.00</researchViewY>
+          <researchViewY>5.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -728,16 +503,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_MilitaryMaces"]</xpath>
           <researchViewX>4.00</researchViewX>
-          <researchViewY>6.00</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="DankPyon_NobleMaces"]</xpath>
-          <researchViewX>7.00</researchViewX>
-          <researchViewY>6.00</researchViewY>
+          <researchViewY>5.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -745,7 +511,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_BasicBlades"]</xpath>
-          <researchViewX>0.00</researchViewX>
+          <researchViewX>1.00</researchViewX>
           <researchViewY>5.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -763,8 +529,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_TreeGriffonBerry"]</xpath>
-          <researchViewX>6.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>0.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -772,7 +538,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_IntermediateCooking"]</xpath>
-          <researchViewX>2.00</researchViewX>
+          <researchViewX>5.00</researchViewX>
           <researchViewY>0.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -781,7 +547,7 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_AdvancedCooking"]</xpath>
-          <researchViewX>6.00</researchViewX>
+          <researchViewX>10.00</researchViewX>
           <researchViewY>0.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
@@ -790,8 +556,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Smoker"]</xpath>
-          <researchViewX>3.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -799,8 +565,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_Grill"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>0.50</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -808,8 +574,8 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_StewPot"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>0.60</researchViewY>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>0.50</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -818,17 +584,17 @@
 
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_AdornedArmor"]</xpath>
           <researchViewX>8.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
+          <researchViewY>4.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
       </operations>
     </match>
   </Operation>
-  <!-- Simple Immersion - VBE Coffees and Teas -->
-  <Operation Class="PatchOperationFindMod">
+  
+    <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Simple Immersion - VBE Coffees and Teas</li>
+      <li>Vanilla Psycasts Expanded</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -836,19 +602,19 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="SI_TeaCounter"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>0.00</researchViewY>
+          <xpath>Defs/ResearchProjectDef[defName="VPE_CasterGear"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>4.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
       </operations>
     </match>
   </Operation>
-  <!-- Progression Kitchen -->
+  
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Progression: Kitchen</li>
+      <li>Vanilla Brewing Expanded</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -856,9 +622,75 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_Sushi"]</xpath>
+          <xpath>Defs/ResearchProjectDef[defName="VBE_LiquorBrewing"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>0.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_Grilling"]</xpath>
           <researchViewX>5.00</researchViewX>
-          <researchViewY>0.00</researchViewY>
+          <researchViewY>0.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Farming</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_FarmingTechniques"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>1.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Insectoids 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFEI2_BasicHivetech"]</xpath>
+          <researchViewX>10.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFEI2_StandardHivetech"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -877,7 +709,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]</xpath>
           <researchViewX>6.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
+          <researchViewY>2.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -886,7 +718,7 @@
   </Operation>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Generally More Research</li>
+      <li>Epochs - Golems</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -894,9 +726,36 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_DartsBoard"]</xpath>
-          <researchViewX>1.00</researchViewX>
-          <researchViewY>1.80</researchViewY>
+          <xpath>Defs/ResearchProjectDef[defName="DV_GolemResearch_BasicGolemancy"]</xpath>
+          <researchViewX>12.00</researchViewX>
+          <researchViewY>4.60</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyGear"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>4.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DV_GolemResearch_AdvancedGolemancy"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>4.60</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyModules"]</xpath>
+          <researchViewX>13.00</researchViewX>
+          <researchViewY>5.10</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -905,7 +764,7 @@
   </Operation>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Progression: Attire</li>
+      <li>Therapy (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -913,36 +772,9 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="LemonSkin_LeatherArmour"]</xpath>
-		  <researchViewX>9.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_VanityTable"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_CostumingTable"]</xpath>
-          <researchViewX>0.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
+          <xpath>Defs/ResearchProjectDef[defName="Therapy"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -951,7 +783,7 @@
   </Operation>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Progression: Production</li>
+      <li>Biomes! Fossils</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -959,9 +791,9 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedResearchBench"]</xpath>
-          <researchViewX>8.00</researchViewX>
-          <researchViewY>3.00</researchViewY>
+          <xpath>Defs/ResearchProjectDef[defName="BMT_Paleontology"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -980,7 +812,7 @@
 
           <xpath>Defs/ResearchProjectDef[defName="AC_MiscellaneousArtisanalCrafting"]</xpath>
           <researchViewX>0.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
+          <researchViewY>0.00</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -988,8 +820,495 @@
           <success>Always</success>
 
           <xpath>Defs/ResearchProjectDef[defName="AC_ComplexArtisanalCrafting"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.6] CAI 5000 - Advanced AI + Fog Of War (continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TribalCCTV"]</xpath>
           <researchViewX>1.00</researchViewX>
-          <researchViewY>1.20</researchViewY>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>T's Samurai Faction</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_BlackPowder"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_Matchlock"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_Hand_Mortar"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_Yumi"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_NinjaGear"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_AshigaruArmor"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>4.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_SamuraiArmor"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>4.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_Naginata"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_SakeBrewing"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_Calligraphy"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_CherryBlossomSowing"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>1.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_Bushido_Code"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+		
+		<li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="TSF_Katana"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Roo's Painting Expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="RBPClassicalPainting"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Art</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_ArtfulDisplay"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Statues"]</xpath>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]</xpath>
+          <researchViewX>10.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Dark Ages : Crypts and Tombs</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DA_Catacombs"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>3.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="DA_BloodflameCatacomb"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>3.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Temporary Patches</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_AnimalCages"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>1.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded - Sushi</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_SoyFermentation"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>1.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded - Stews</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_StewCooking"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded - Bakery</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VCE_DecorativeBaking"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>0.50</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Aesthetics</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_Clocks"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Production</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedResearchBench"]</xpath>
+          <researchViewX>11.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Kitchen</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_Sushi"]</xpath>
+          <researchViewX>9.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Attire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="LemonSkin_LeatherArmour"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>4.90</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>4.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_VanityTable"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>2.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_CostumingTable"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Simple Immersion - VBE Coffees and Teas</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="SI_TeaCounter"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Hospitality</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_Museums"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>3.40</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Generally More Research</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_DartsBoard"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>1.80</researchViewY>
+          <tab>TAB_Medieval</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Forsaken Faction For Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="FOF_Plants"]</xpath>
+          <researchViewX>10.00</researchViewX>
+          <researchViewY>0.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -1000,36 +1319,14 @@
     <success>Always</success>
 
     <xpath>Defs/ResearchProjectDef[defName="Ferny_PrisonArchitecture"]</xpath>
-    <researchViewX>3.00</researchViewX>
-    <researchViewY>4.20</researchViewY>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
     <tab>TAB_Medieval</tab>
   </Operation>
-
-  <!-- Reel's Expanded Storage-->
-  <Operation Class="PatchOperationFindMod">
+  
+    <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Reel's Expanded Storage</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-
-        <li Class="TTPF.PatchOperationEditResearch">
-          <success>Always</success>
-
-          <xpath>Defs/ResearchProjectDef[defName="ReelMedievalStorage"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>4.20</researchViewY>
-          <tab>TAB_Medieval</tab>
-        </li>
-
-      </operations>
-    </match>
-  </Operation>
-  <!-- Therapy -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Therapy (Continued)</li>
+      <li>Medical Dissection</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -1037,9 +1334,9 @@
         <li Class="TTPF.PatchOperationEditResearch">
           <success>Always</success>
 
-          <xpath>Defs/ResearchProjectDef[defName="Therapy"]</xpath>
-          <researchViewX>4.00</researchViewX>
-          <researchViewY>3.60</researchViewY>
+          <xpath>Defs/ResearchProjectDef[defName="DissectionResearchProj"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>3.90</researchViewY>
           <tab>TAB_Medieval</tab>
         </li>
 
@@ -1047,24 +1344,24 @@
     </match>
   </Operation>
   
-	<!-- Vanilla Armour Expanded -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Vanilla Armour Expanded</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-		<operations>
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>War Crimes Expanded 2 Core (Updated)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="VAE_LeatherTanning"]</xpath>
-			<researchViewX>4.00</researchViewX>
-			<researchViewY>3.00</researchViewY>
-			<tab>TAB_Medieval</tab>
+          <xpath>Defs/ResearchProjectDef[defName="WCE2_CrudeTorture"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>6.50</researchViewY>
+          <tab>TAB_Medieval</tab>
         </li>
-		</operations>
-		</match>
-	</Operation>
-	
+
+      </operations>
+    </match>
+  </Operation>
+
 </Patch>
