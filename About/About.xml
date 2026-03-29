@@ -20,6 +20,7 @@
 	</incompatibleWith>
 	<loadAfter>
 		<li>GonDragon.TTPF</li>
+		<li>ferny.progressionattire</li>
 		<li>ferny.progressioncore</li>
 		<li>ferny.progressionstorage</li>
 		<li>ferny.progressionproduction</li>
