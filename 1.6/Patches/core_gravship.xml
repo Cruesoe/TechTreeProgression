@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!-- Correct Tech Levels for Gravship -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Odyssey</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="OrbitalTech"]/techLevel</xpath>
+				<value>
+				<techLevel>Spacer</techLevel>
+				</value>
+		</match>
+	</Operation>
+
+</Patch>
