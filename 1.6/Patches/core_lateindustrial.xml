@@ -717,7 +717,7 @@
 
 			<xpath>Defs/ResearchProjectDef[defName="SurrogateOrgans"]</xpath>
 			<researchViewX>0.00</researchViewX>
-			<researchViewY>2.80</researchViewY>
+			<researchViewY>3.00</researchViewY>
 			<tab>TAB_Late_Industrial</tab>
         </li>
 
