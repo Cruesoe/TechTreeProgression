@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!-- Rename Vanilla Factions Expanded - Tribals reseach tab -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Vanilla Factions Expanded - Tribals</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-			<operations>
-			<li Class="TTPF.PatchOperationEditResearch">
-				<success>Always</success>
-
-				<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]</xpath>
-				<researchViewX>5.00</researchViewX>
-				<researchViewY>1.80</researchViewY>
-				<tab>TAB_Neolithic</tab>
-			</li>
-			</operations>
-		</match>
-	</Operation>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Tribals</li>
+        </mods>
+        
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ResearchTabDef[defName="Basic" or defName="VFET_Basic"]/label</xpath>
+            <value>
+                <label>Animal</label>
+            </value>
+        </match>
+    </Operation>
 </Patch>
