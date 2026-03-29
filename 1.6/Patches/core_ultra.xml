@@ -1,285 +1,650 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-	<!-- Royalty -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Royalty</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-		<operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
-	
-			<xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]</xpath>
-			<researchViewX>0.00</researchViewX>
-			<researchViewY>0.00</researchViewY>
-			<tab>TAB_Ultra</tab>
-        </li>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
-			<researchViewX>0.00</researchViewX>
-			<researchViewY>1.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>0.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="SkinHardening"]</xpath>
-			<researchViewX>0.00</researchViewX>
-			<researchViewY>2.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="HealingFactors"]</xpath>
-			<researchViewX>0.00</researchViewX>
-			<researchViewY>0.60</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="SkinHardening"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>4.40</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="FleshShaping"]</xpath>
-			<researchViewX>1.00</researchViewX>
-			<researchViewY>0.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="HealingFactors"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
-			<researchViewX>1.00</researchViewX>
-			<researchViewY>1.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>1.10</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]</xpath>
-			<researchViewX>1.00</researchViewX>
-			<researchViewY>2.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>0.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
-		</operations>
-		</match>
-	</Operation>
-	
-	<!-- Biotech -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Biotech</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-		<operations>
-		<li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]</xpath>
-			<researchViewX>2.00</researchViewX>
-			<researchViewY>3.00</researchViewY>
-			<tab>TAB_Ultra</tab>
-        </li>
-		</operations>
-		</match>
-	</Operation>
-	
-	<!-- Vanilla Furniture Expanded - Security -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Vanilla Furniture Expanded - Security</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-		<operations>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="VFES_RepulsorTechnology"]</xpath>
-			<researchViewX>4.00</researchViewX>
-			<researchViewY>3.00</researchViewY>
-			<tab>TAB_Ultra</tab>
-        </li>
-		</operations>
-		</match>
-	</Operation>
-	
-	<!-- Alpha Mechs -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Alpha Mechs</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-		<operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
-
-			<xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]</xpath>
-			<researchViewX>3.00</researchViewX>
-			<researchViewY>3.60</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>5.70</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
-        <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+      </operations>
+    </match>
+  </Operation>
 
-			<xpath>Defs/ResearchProjectDef[defName="AM_MechanoidBeamcasting"]</xpath>
-			<researchViewX>3.00</researchViewX>
-			<researchViewY>2.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Android</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VREA_AndroidTech"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>3.60</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
-        <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+      </operations>
+    </match>
+  </Operation>
 
-			<xpath>Defs/ResearchProjectDef[defName="AM_VoidLinkConnectivity"]</xpath>
-			<researchViewX>4.00</researchViewX>
-			<researchViewY>2.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Security</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="VFES_RepulsorTechnology"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ushankas Glittertech Expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AM_QuantumPulseMessaging"]</xpath>
-			<researchViewX>5.00</researchViewX>
-			<researchViewY>2.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_GlittertechFabrication"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>3.00</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AM_Cryptoharmonization"]</xpath>
-			<researchViewX>6.00</researchViewX>
-			<researchViewY>2.00</researchViewY>
-			<tab>TAB_Ultra</tab>
-        </li>
-		</operations>
-		</match>
-	</Operation>
-	
-   <!-- Altered Carbon 2: ReSleeved -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-		<li>Altered Carbon 2: ReSleeved</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-		<operations>
-        <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
-
-			<xpath>Defs/ResearchProjectDef[defName="AC_SleeveGestation"]</xpath>
-			<researchViewX>3.00</researchViewX>
-			<researchViewY>1.20</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_LightGlitterpanelsRes"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>2.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_NeuralDigitalization"]</xpath>
-			<researchViewX>4.00</researchViewX>
-			<researchViewY>1.20</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_GlittertechUtilitiesRes"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>3.00</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_NeuralEditing"]</xpath>
-			<researchViewX>5.00</researchViewX>
-			<researchViewY>1.20</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_DarkGlitterpanelsRes"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>3.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_NeuralCasting"]</xpath>
-			<researchViewX>5.00</researchViewX>
-			<researchViewY>0.60</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_TelepadRes"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>3.00</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_SkilltrainerProduction"]</xpath>
-			<researchViewX>5.00</researchViewX>
-			<researchViewY>1.80</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_MolecularDisassemblerRes"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>3.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_ChrysalisPoweredArmor"]</xpath>
-			<researchViewX>5.00</researchViewX>
-			<researchViewY>2.80</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_HeavyGlittertechRes"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>3.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_AdvancedShieldBelt"]</xpath>
-			<researchViewX>3.00</researchViewX>
-			<researchViewY>2.80</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_GlittertechAlchemyRes"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>2.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_VocalSynthesis"]</xpath>
-			<researchViewX>0.00</researchViewX>
-			<researchViewY>2.80</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_NeuromodifiersBasicsRes"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>4.00</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_MentalFortification"]</xpath>
-			<researchViewX>0.00</researchViewX>
-			<researchViewY>3.50</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_DeepMindScanningRes"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>2.80</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_REMEnchanment"]</xpath>
-			<researchViewX>1.00</researchViewX>
-			<researchViewY>3.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_TeethRes"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>3.50</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
 
         <li Class="TTPF.PatchOperationEditResearch">
-			<success>Always</success>
+          <success>Always</success>
 
-			<xpath>Defs/ResearchProjectDef[defName="AC_RogianArmaments"]</xpath>
-			<researchViewX>0.00</researchViewX>
-			<researchViewY>4.00</researchViewY>
-			<tab>TAB_Ultra</tab>
+          <xpath>Defs/ResearchProjectDef[defName="USH_OverclockRes"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>4.00</researchViewY>
+          <tab>TAB_Ultra</tab>
         </li>
-		</operations>
-		</match>
-	</Operation>
 
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="USH_SkinRes"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>4.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="USH_CombatSkilltrainersRes"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>4.10</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="USH_EngineeringSkilltrainersRes"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>2.80</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="USH_IntellectualSkilltrainersRes"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>2.80</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="USH_SurvivalSkilltrainersRes"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>3.50</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="USH_ResurrectorRes"]</xpath>
+          <researchViewX>8.50</researchViewX>
+          <researchViewY>3.30</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Mechs</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>6.20</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_MechanoidBeamcasting"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>5.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_VoidLinkConnectivity"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>5.70</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_QuantumPulseMessaging"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>5.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AM_Cryptoharmonization"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>5.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Integrated Implants</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="LTS_ModularBionicWeaponryUltra"]</xpath>
+          <researchViewX>4.00</researchViewX>
+          <researchViewY>0.10</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="I_SubdermalArmour"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>4.40</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Altered Carbon 2: ReSleeved</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_SleeveGestation"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>4.40</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_NeuralDigitalization"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>1.20</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_NeuralEditing"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>0.30</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_NeuralCasting"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>1.50</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_SkilltrainerProduction"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>0.90</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_ChrysalisPoweredArmor"]</xpath>
+          <researchViewX>3.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_AdvancedShieldBelt"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_VocalSynthesis"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>3.10</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_MentalFortification"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>2.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_REMEnchanment"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>2.50</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AC_RogianArmaments"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Reverse Engineered Region Adjusters</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AdjusterSunblocker"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>5.40</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AdjusterWeatherController"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="AdjusterClimate"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Mechanoid Upgrades</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MU_AdvancedUpgrades"]</xpath>
+          <researchViewX>5.00</researchViewX>
+          <researchViewY>5.70</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MU_AdvancedChips"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>5.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MU_AdvancedModules"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>6.20</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MU_AdvancedArmor"]</xpath>
+          <researchViewX>6.00</researchViewX>
+          <researchViewY>6.20</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MU_AdvancedShields"]</xpath>
+          <researchViewX>8.00</researchViewX>
+          <researchViewY>5.60</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="MU_ShieldBooster"]</xpath>
+          <researchViewX>7.00</researchViewX>
+          <researchViewY>5.70</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>EPOE-Forked: Royalty DLC expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="EPOE_AdvancedSpecializedLimbs"]</xpath>
+          <researchViewX>0.00</researchViewX>
+          <researchViewY>0.00</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="EPOE_AdvancedCompactWeaponry"]</xpath>
+          <researchViewX>1.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="EPOE_SyntheticOrgansIntegration"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>1.10</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Eltex Weaponry (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="TTPF.PatchOperationEditResearch">
+          <success>Always</success>
+
+          <xpath>Defs/ResearchProjectDef[defName="EW_EltexWeaponry"]</xpath>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>5.90</researchViewY>
+          <tab>TAB_Ultra</tab>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
 </Patch>
